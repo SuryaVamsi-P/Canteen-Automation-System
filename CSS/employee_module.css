@@ -1,0 +1,38 @@
+/* employee_module.css */
+/* Styles specific to the Employee Dashboard */
+
+body {
+    background-color: #f5f7fa;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.employee-header {
+    background-color: #3949ab;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.task-box {
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+    border-left: 6px solid #3949ab;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button.action {
+    background-color: #3949ab;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button.action:hover {
+    background-color: #303f9f;
+}
