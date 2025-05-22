@@ -22,17 +22,56 @@ This project is a full-fledged **Canteen Automation System** designed to streaml
 - **Tools:** XAMPP, VS Code
 
 
-## 📁 Project Structure
+## Project Structure
 
 ```
-├── customer_login.html
-├── admin_login.html
-├── emp_login.html
-├── Webpage_Login.html
-├── emp_login.php
-├── cart.css
-├── admin_module.css
-├── bill.js
+Canteen-Automation-System/
+├── 📁 CSS/
+│   ├── admin_module.css               # Styling for Admin views
+│   ├── cart.css                       # Styling for cart and shared UI
+│   ├── customer_module.css           # Styling for Customer views
+│   ├── employee_module.css           # Styling for Employee views
+│   └── shared_styles.css             # Common/shared styles across pages
+│
+├── 📁 HTML/
+│   ├── 📁 Admin Login Interface/
+│   │   └── admin_login.html          # Admin login page
+│   ├── 📁 Customer Login Interface/
+│   │   └── customer_login.html       # Customer login page
+│   ├── 📁 Employee Login Interface/
+│   │   └── emp_login.html            # Employee login page
+│   └── 📁 Role Selection Page/
+│       └── webpage_login.html        # Landing page for role-based selection
+│
+├── 📁 Java Script/
+│   ├── admin_login.js                # Admin login logic
+│   ├── customer_login.js             # Customer login logic
+│   ├── employee_login.js             # Employee login logic
+│   └── form_validation.js            # Form-level validations (email, phone, confirm-password, etc.)
+│
+├── 📁 PHP/
+│   ├── 📁 Customer Login Flow/
+│   │   └── customer_login.php        # Backend logic for customer login
+│   ├── 📁 Employee Login Logic/
+│   │   └── emp_login.php             # Backend logic for employee login
+│   ├── 📁 New Customer Registration/
+│   │   └── register_customer.php     # PHP for handling new customer signups
+│   ├── 📁 Role-based User Dashboard/
+│   │   ├── admin_dashboard.php       # Admin dashboard page
+│   │   ├── customer_dashboard.php    # Customer dashboard page
+│   │   ├── dashboard.php             # Universal dashboard redirect logic
+│   │   └── employee_dashboard.php    # Employee dashboard page
+│   ├── 📁 Secured Admin Login/
+│   │   └── admin_login.php           # PHP backend for admin login
+│   ├── 📁 Secured Database Config/
+│   │   └── db_config.php             # DB connection and security config
+│   ├── 📁 Session Logout/
+│   │   └── logout.php                # Universal logout handling
+│   ├── bill_logic.php                # Handles customer billing + item total
+│   └── connect.php                   # Master DB connection logic used across the app
+│
+└── README.md                         # Detailed project documentation
+
 ```
 
 
