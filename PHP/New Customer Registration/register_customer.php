@@ -1,3 +1,4 @@
+<?php include 'connect.php'; ?>
 <?php
 include 'db_config.php';
 
