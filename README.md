@@ -106,6 +106,7 @@ MS in Data Science at the George Washington University
 
 - Email  :-  svamsi2002@gmail.com
 - LinkedIn  :-  https://www.linkedin.com/in/surya-patiballa-b724851aa/
+- Resume  :-  https://drive.google.com/file/d/178IYcArC6YYVdJiIwRmJYodzKZ-JXe-D/view?usp=sharing  
 
 
 Built with ❤️ to bring tech into everyday dining !!!
